@@ -1,0 +1,22 @@
+data_params:
+  sample_file: models/ik_control_points_bins.pkl
+  point_file: models/ik_control_points_cache.pkl
+  range_file: models/controls.txt
+  point_config: models/ik_control_points_masked.pkl
+  noise: 0.01
+
+model_params:
+  input_dims: xy
+  layers: [256, 256]
+  parts: [[0,1,2,6,7],[3,4,5,8,9],[10],[11,12,13,14,15,16,17,18,19]]
+  mask: models/ik_control_points_masked.pkl
+
+training_params:
+  lr: [1e-3,1e-4,1e-5]
+  steps: [50000,25000,25000]
+  normalize_points: False
+  batch_size: 8
+  approximation_config: models/refine_model_leaky.yaml
+  approximation_checkpoint: models/refine_model_leaky
+  compare_dims: xy
+  reg_weight: 0.02

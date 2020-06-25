@@ -1,0 +1,99 @@
+ray_ac_lf_upperlid t y -1 1 0.781
+ray_ac_rt_upperlid t y -1 1 0.781
+ray_ac_lf_lowerlid t y -1 0 -0.81
+ray_ac_rt_lowerlid t y -1 0 -0.81
+ray_ac_cn_wrinkles c Forehead_intensity 0 2
+ray_ac_cn_wrinkles c corrugator_intensity 0 2 0.5
+ray_ac_cn_wrinkles c nose_bridge_intensity 0 2 0.5
+ray_ac_cn_wrinkles c crowsfeet_intensity 0 2 0.5
+ray_ac_lf_eyebrow t x -0.125 0.03 -0.002
+ray_ac_lf_eyebrow t y -0.2 0.12 -0.024
+ray_ac_rt_eyebrow t x -0.125 0.03 -0.002
+ray_ac_rt_eyebrow t y -0.2 0.12 -0.024
+ray_ac_cn_jaw r x 0 22
+ray_ac_cn_jaw r y -7.5 7.5
+ray_ac_lf_mouthcorner t x -1 1
+ray_ac_lf_mouthcorner t y -1 1
+ray_ac_rt_mouthcorner t x -1 1
+ray_ac_rt_mouthcorner t y -1 1
+ray_ac_cn_lowerlip r x -30 30 3
+ray_ac_cn_upperlip r x -30 30
+ray_ac_lf_cheek t x -0.4 0.75
+ray_ac_lf_cheek t y -0.5 0.7
+ray_ac_lf_cheek t z -0.2 0.4
+ray_ac_rt_cheek t x -0.4 0.75
+ray_ac_rt_cheek t y -0.5 0.7
+ray_ac_rt_cheek t z -0.2 0.4
+ray_ac_lf_eyebrows1 t x -0.25 0.25
+ray_ac_lf_eyebrows1 t y -0.25 0.25
+ray_ac_lf_eyebrows1 t z -0.25 0.25
+ray_ac_lf_eyebrows2 t x -0.25 0.25
+ray_ac_lf_eyebrows2 t y -0.25 0.25
+ray_ac_lf_eyebrows2 t z -0.25 0.25
+ray_ac_lf_eyebrows3 t x -0.25 0.25
+ray_ac_lf_eyebrows3 t y -0.25 0.25
+ray_ac_lf_eyebrows3 t z -0.25 0.25
+ray_ac_lf_eyebrows4 t x -0.25 0.25
+ray_ac_lf_eyebrows4 t y -0.25 0.25
+ray_ac_lf_eyebrows4 t z -0.25 0.25
+ray_ac_rt_eyebrows1 t x -0.25 0.25
+ray_ac_rt_eyebrows1 t y -0.25 0.25
+ray_ac_rt_eyebrows1 t z -0.25 0.25
+ray_ac_rt_eyebrows2 t x -0.25 0.25
+ray_ac_rt_eyebrows2 t y -0.25 0.25
+ray_ac_rt_eyebrows2 t z -0.25 0.25
+ray_ac_rt_eyebrows3 t x -0.25 0.25
+ray_ac_rt_eyebrows3 t y -0.25 0.25
+ray_ac_rt_eyebrows3 t z -0.25 0.25
+ray_ac_rt_eyebrows4 t x -0.25 0.25
+ray_ac_rt_eyebrows4 t y -0.25 0.25
+ray_ac_rt_eyebrows4 t z -0.25 0.25
+ray_ac_cn_uplip t x -0.05 0.05
+ray_ac_cn_uplip t y -0.05 0.05
+ray_ac_cn_uplip t z -0.05 0.05
+ray_ac_cn_lowlip t x -0.05 0.05
+ray_ac_cn_lowlip t y -0.05 0.05
+ray_ac_cn_lowlip t z -0.05 0.05
+ray_ac_lf_uplip1 t x -0.05 0.05
+ray_ac_lf_uplip1 t y -0.05 0.05
+ray_ac_lf_uplip1 t z -0.05 0.05
+ray_ac_lf_uplip2 t x -0.05 0.05
+ray_ac_lf_uplip2 t y -0.05 0.05
+ray_ac_lf_uplip2 t z -0.05 0.05
+ray_ac_lf_cornerlip t x -0.05 0.05
+ray_ac_lf_cornerlip t y -0.05 0.05
+ray_ac_lf_cornerlip t z -0.05 0.05
+ray_ac_lf_lowlip1 t x -0.05 0.05
+ray_ac_lf_lowlip1 t y -0.05 0.05
+ray_ac_lf_lowlip1 t z -0.05 0.05
+ray_ac_lf_lowlip2 t x -0.05 0.05
+ray_ac_lf_lowlip2 t y -0.05 0.05
+ray_ac_lf_lowlip2 t z -0.05 0.05
+ray_ac_rt_uplip1 t x -0.05 0.05
+ray_ac_rt_uplip1 t y -0.05 0.05
+ray_ac_rt_uplip1 t z -0.05 0.05
+ray_ac_rt_uplip2 t x -0.05 0.05
+ray_ac_rt_uplip2 t y -0.05 0.05
+ray_ac_rt_uplip2 t z -0.05 0.05
+ray_ac_rt_cornerlip t x -0.05 0.05
+ray_ac_rt_cornerlip t y -0.05 0.05
+ray_ac_rt_cornerlip t z -0.05 0.05
+ray_ac_rt_lowlip1 t x -0.05 0.05
+ray_ac_rt_lowlip1 t y -0.05 0.05
+ray_ac_rt_lowlip1 t z -0.05 0.05
+ray_ac_rt_lowlip2 t x -0.05 0.05
+ray_ac_rt_lowlip2 t y -0.05 0.05
+ray_ac_rt_lowlip2 t z -0.05 0.05
+ray_ac_cn_septon t x -0.03 0.03
+ray_ac_cn_septon t y -0.03 0.03
+ray_ac_cn_septon t z -0.03 0.03
+ray_ac_cn_nose t x -0.02 0.02
+ray_ac_cn_nose t y -0.02 0.02
+ray_ac_cn_nose t z -0.02 0.02
+ray_ac_cn_nosebridge t x -0.02 0.02
+ray_ac_cn_nosebridge t y -0.02 0.02
+ray_ac_cn_nosebridge t z -0.02 0.02
+ray_ac_lf_eyesocket_in t x -0.15 0.1 -0.086
+ray_ac_lf_eyesocket_in t y -0.15 0.15
+ray_ac_rt_eyesocket_in t x -0.1 0.15 0.086
+ray_ac_rt_eyesocket_in t y -0.15 0.15

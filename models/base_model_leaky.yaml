@@ -1,0 +1,25 @@
+# file paths relative to root of this repository
+data_params:
+  control_file: models/controls.txt
+  geo_file: models/geo.txt
+  cache_file: models/cache.pkl
+  rigid_files: [models/rigid_parts.pkl]
+
+model_params:
+  dense: [256]
+  initial_image: [8,8,8]
+  channels: [16,16]
+  extra_layer: True
+  norm: False
+  coord_conv: False
+  activation: leaky
+
+training_params:
+  lr: [1e-3,1e-4,1e-5]
+  steps: [50000,10000,10000]
+  batch_size: 4
+  loss_function: l1
+  normal_loss_function: l1
+  loss_weights:
+    vertex_loss: 1e1
+    normal_loss: 5e1

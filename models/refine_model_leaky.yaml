@@ -1,0 +1,25 @@
+data_params:
+  control_file: models/controls.txt
+  geo_file: models/geo.txt
+  cache_file: models/cache_refined.pkl
+
+model_params:
+  base_config: models/base_model_leaky.yaml
+  base_checkpoint: models/base_model_leaky
+  dense: [256]
+  initial_image: [8,8,8]
+  channels: [16,16,16]
+  extra_layer: True
+  norm: False
+  coord_conv: False
+  activation: leaky
+
+training_params:
+  lr: [1e-3,1e-4,1e-5]
+  steps: [50000,10000,10000]
+  batch_size: 4
+  loss_function: l1
+  normal_loss_function: l1
+  loss_weights:
+    vertex_loss: 1e1
+    normal_loss: 5e1

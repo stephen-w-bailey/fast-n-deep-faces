@@ -1,0 +1,20 @@
+data_params:
+  control_file: models/controls.txt
+  geo_file: models/geo.txt
+  cache_file: models/cache_nonrigid.pkl
+  uv_file: models/cache_nonrigid.pkl
+
+model_params:
+  layers: [256,512]
+  activation: leaky
+  model_type: dense
+
+training_params:
+  lr: [1e-3,1e-4,1e-5]
+  steps: [50000,10000,10000]
+  batch_size: 4
+  loss_function: l1
+  normal_loss_function: l1
+  loss_weights:
+    vertex_loss: 1e1
+    normal_loss: 5e1
