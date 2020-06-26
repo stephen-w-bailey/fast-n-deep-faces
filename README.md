@@ -28,7 +28,7 @@ Run `pip install -r requirements.txt` in the root directory to install required 
 
 Pretrained models for [Ray](https://www.cgtarian.com/maya-character-rigs/download-free-3d-character-ray.html) are provided with this code.  You can evaluate the models without installing and running the Ray character rig in Maya.
 
-* Download the compressed archive of the models (Link coming soon)
+* Download the compressed archive of the models [here](http://graphics.berkeley.edu/papers/Bailey-FDF-2020-07/models.zip)
 * Unpack the contents of the archive in the `models` subdirectory
 * Control the model through rig parameters by running the following:
 ```
