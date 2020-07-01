@@ -77,7 +77,7 @@ python3 uv/autoDetectRefinement.py --configFile models/base_model_leaky.yaml --e
 * Ensure that the PoseGenerator server is running (`pg.startServer()` in Maya)
 * Run:
 ```
-python3 cnnModel/poseAnalysis.py --configFile models/refine_model_leaky.yaml --outputFile models/cache_refined.pkl
+python3 cnnModel/computeParameterMasks.py --configFile models/refine_model_leaky.yaml --outputFile models/cache_refined.pkl
 
 python3 cnnModel/trainModelRefine.py --configFile models/refine_model_leaky.yaml --checkpoint models/refine_model_leaky
 ```
