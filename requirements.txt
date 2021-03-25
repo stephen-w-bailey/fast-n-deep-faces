@@ -13,6 +13,6 @@ colormap==1.0.2
 maya==0.6.1
 PyOpenGL==3.1.5
 PySide2==5.15.0
-PyYAML==5.3.1
+PyYAML==5.4
 scikit_learn==0.23.1
 skimage==0.0
