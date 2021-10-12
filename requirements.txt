@@ -1,7 +1,7 @@
 matplotlib==3.0.2
 scipy==1.2.1
 tqdm==4.31.1
-opencv_python==4.1.1.26
+opencv_python==4.2.0.32
 tensorflow==1.15.0rc2
 networkx==2.2
 numpy==1.18.4
